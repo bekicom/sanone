@@ -1,0 +1,63 @@
+@font-face {
+  font-family: regular;
+  src: url(../../Fonts/proximanova_regular.ttf);
+  
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: start;
+  font-size: 15px;
+  font-family:regular ;
+  background: #fff;
+  height: calc((100% - 30px) / 2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-horizontal > .swiper-pagination-bullets {
+  position: relative;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.swiper-pagination-bullet {
+  padding: 5px;
+  transition: 0.1s;
+}
+.swiper-pagination-bullet-active {
+  background-color: #facb21;
+  padding: 8px;
+}
+
+.new_Produc_1 > figure > img {
+  border-radius: 6px;
+}
+.discount_pricw > span{
+  margin: 0;
+  text-align: start !important;
+}
+
+.new_Produc_1 > hr{
+  border: 0.01px solid #d9d8d6;
+}

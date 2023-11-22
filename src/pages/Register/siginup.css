@@ -1,0 +1,178 @@
+.singnin {
+  width: 100%;
+  min-height: 100vh;
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden !important;
+  padding: 3%;
+  margin-top: 5%;
+}
+
+#login-for-user {
+  width: 430px;
+  height: auto;
+  padding: 3%;
+  background: #ffffff;
+  box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-for-user > svg {
+  width: 70px;
+  height: 70px;
+  color: #c9a95c;
+  margin-bottom: 3%;
+}
+
+#login-for-user > div {
+  width: 100%;
+  height: 55px;
+  border: 2px solid #d0b470;
+  border-radius: 8px;
+  margin: 4%;
+  padding: 0 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#login-for-user > div > input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 3%;
+  font-size: 18px;
+  color: #c9a95c;
+}
+
+#login-for-user > div > svg {
+  color: #c9a95c;
+  letter-spacing: 2px;
+}
+
+#login-for-user > button {
+  width: 100%;
+  height: 55px;
+  background: #c9a95c;
+  color: #ffffff;
+  font-size: 23px;
+  margin: 3% 0;
+}
+@media (max-width: 800px) {
+  #login-for-user {
+    width: 360px;
+    padding: 3%;
+    border-radius: 10px;
+  }
+  #login-for-user > div {
+    height: 50px;
+  }
+
+  #login-for-user > div > input {
+    font-size: 16px;
+  }
+  #login-for-user > button {
+    height: 50px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 450px) {
+  #login-for-user {
+    width: 75%;
+    padding: 3%;
+    border-radius: 8px;
+  }
+  #login-for-user > div {
+    height: 40px;
+  }
+
+  #login-for-user > div > input {
+    font-size: 14px;
+  }
+  #login-for-user > button {
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+/* sign up start */
+.siginup {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  padding: 3%;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden !important;
+}
+
+#myProfile {
+  width: 75%;
+  height: auto;
+}
+#myProfile .sign_name .sing_i_1 {
+  width: 48%;
+}
+#myProfile .sign_province {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+#myProfile .sign_province select {
+  /* height: 60px; */
+  background: none;
+  font-size: 18px;
+  color: #dcbb45;
+  box-shadow: 0px 7px 20px rgb(0 0 0 / 12%);
+  border-radius: 8px;
+  width: 48%;
+  padding:  15px;
+}
+
+
+#tyupe{
+  background: none;
+}
+
+
+
+
+@media (max-width: 700px) {
+  #myProfile .sign_name .sing_i_1 {
+    width: 100%;
+  }
+  #myProfile .sign_province
+  {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #myProfile .sign_province select{
+    width: 100%;
+  }
+}
+@media (max-width: 430px) {
+  .siginup {
+    padding-top: 60px;
+  }
+  #myProfile .sign_province {
+    border-radius: 8px;
+  }
+  #myProfile .sign_province select {
+    font-size: 14px;
+    padding: 10px;
+
+  }
+}

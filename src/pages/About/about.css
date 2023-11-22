@@ -1,0 +1,498 @@
+@font-face {
+  font-family: regular;
+  src: url(../../Fonts/proximanova_regular.ttf);
+}
+
+.aboutDiv {
+  margin: 0 auto;
+  padding-top: 16%;
+  width: 100%;
+  height: auto;
+  background: #f5f5f5;
+  font-family: regular;
+}
+
+/* section 1 start */
+
+.aboutDiv .about_section1 {
+  padding: 0 6%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutDiv .about_section1 p {
+  font-size: 3rem;
+  text-align: center;
+  color: #9f6233;
+  font-family: regular;
+}
+.aboutDiv .about_section1 span {
+  padding-top: 1%;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #7c7c7c;
+  font-family: regular;
+}
+
+/* section 1 end */
+
+/* section 2 start */
+.aboutDiv .section2 {
+  padding: 6% 8% 7% 8%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutDiv .section2 .container {
+  margin: 0;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.aboutDiv .section2 .container2 {
+  margin: 0;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutDiv .section2 .container .left1,
+.aboutDiv .section2 .container2 .right2 {
+  padding: 0px 6%;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutDiv .section2 .container .left1 {
+  align-items: flex-end;
+  border-right: 2px solid #dcbb45;
+}
+.aboutDiv .section2 .container2 .right2 {
+  align-items: flex-start;
+}
+
+.aboutDiv .section2 .container .left1 p,
+.aboutDiv .section2 .container2 .right2 p {
+  font-size: 2rem;
+  color: #9f6233;
+}
+.aboutDiv .section2 .container .left1 span,
+.aboutDiv .section2 .container2 .right2 span {
+  padding-top: 3%;
+  font-size: 1.4rem;
+  color: #7c7c7c;
+}
+.aboutDiv .section2 .container .left1 span {
+  text-align: right;
+}
+.aboutDiv .section2 .container2 .right2 span {
+  text-align: left;
+}
+
+.aboutDiv .section2 .container .right1,
+.aboutDiv .section2 .container2 .left2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.aboutDiv .section2 .container2 .left2 {
+  border-right: 2px solid #dcbb45;
+}
+.aboutDiv .section2 .container .right1 .line,
+.aboutDiv .section2 .container2 .left2 .line {
+  width: 10%;
+  height: 0.5%;
+  background: #dcbb45;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.aboutDiv .section2 .container .right1 .line {
+  justify-content: flex-end;
+}
+.aboutDiv .section2 .container2 .left2 .line {
+  justify-content: flex-start;
+}
+.aboutDiv .section2 .container .right1 .line span,
+.aboutDiv .section2 .container2 .left2 .line span {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #dcbb45;
+}
+.aboutDiv .section2 .container .right1 .img,
+.aboutDiv .section2 .container2 .left2 .img {
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.aboutDiv .section2 .container .right1 .img img,
+.aboutDiv .section2 .container2 .left2 .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aboutDiv .section2 .container .right1 .img:hover img,
+.aboutDiv .section2 .container2 .left2 .img:hover img {
+  transform: scale(1.1);
+}
+/* section 2 end */
+
+/* section 3 start */
+
+.aboutDiv .section3 {
+  padding: 4% 0;
+  width: 100%;
+  background: #dcbb45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutDiv .section3 img {
+  width: 20%;
+  height: auto;
+}
+
+/* section 3 end */
+
+/* section 4 start */
+
+.aboutDiv .section4 {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../asest/about/bcimage1.png.jpg),
+    url(../../asest/about/bcimage2.png.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutDiv .section4 a {
+  padding: 10px 73px;
+  background: #dcbb45;
+  border-radius: 8px;
+
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+.aboutDiv .section4 a i {
+  margin-right: 7px;
+}
+
+/* section 4 end */
+
+/* media queries */
+
+@media (max-width: 1800px) {
+  .aboutDiv .section2 .container {
+    height: 490px;
+  }
+  .aboutDiv .section2 .container .left1,
+  .aboutDiv .section2 .container2 .right2 {
+    padding: 0px 5%;
+    width: 45%;
+  }
+  .aboutDiv .section2 .container .left1 p,
+  .aboutDiv .section2 .container2 .right2 p {
+    font-size: 1.8rem;
+  }
+  .aboutDiv .section2 .container .left1 span,
+  .aboutDiv .section2 .container2 .right2 span {
+    font-size: 1.1rem;
+  }
+  .aboutDiv .section2 .container .right1,
+  .aboutDiv .section2 .container2 .left2 {
+    width: 45%;
+  }
+  .aboutDiv .section4 {
+    height: 18rem;
+  }
+}
+@media (max-width: 1700px) {
+  .aboutDiv .section2 .container {
+    height: 480px;
+  }
+  .aboutDiv .section2 .container2 {
+    height: 480px;
+  }
+  .aboutDiv .section2 .container .left1,
+  .aboutDiv .section2 .container2 .right2 {
+    padding: 0px 5%;
+    width: 45%;
+  }
+  .aboutDiv .section2 .container .right1,
+  .aboutDiv .section2 .container2 .left2 {
+    width: 45%;
+  }
+}
+@media (max-width: 1600px) {
+  .aboutDiv .about_section1 p {
+    font-size: 2.4rem;
+  }
+  .aboutDiv .about_section1 span {
+    font-size: 1.4rem;
+  }
+  .aboutDiv .section2 .container {
+    height: 470px;
+  }
+  .aboutDiv .section2 .container2 {
+    height: 470px;
+  }
+  .aboutDiv .section4 {
+    height: 16rem;
+  }
+}
+@media (max-width: 1500px) {
+  .aboutDiv .section2 .container {
+    height: 420px;
+  }
+  .aboutDiv .section2 .container2 {
+    height: 420px;
+  }
+  .aboutDiv .section4 {
+    height: 14rem;
+  }
+}
+@media (max-width: 1400px) {
+  .aboutDiv .section2 .container {
+    height: 400px;
+  }
+  .aboutDiv .section2 .container2 {
+    height: 400px;
+  }
+  .aboutDiv .section4 {
+    height: 15rem;
+  }
+  .aboutDiv .section4 {
+    height: 14rem;
+  }
+}
+@media (max-width: 1300px) {
+  .aboutDiv .section2 .container {
+    height: 450px;
+  }
+  .aboutDiv .section2 .container2 {
+    height: 450px;
+  }
+  .aboutDiv .section2 .container .left1 p,
+  .aboutDiv .section2 .container2 .right2 p {
+    font-size: 1.5rem;
+  }
+  .aboutDiv .section2 .container .left1 span,
+  .aboutDiv .section2 .container2 .right2 span {
+    font-size: 0.9rem;
+  }
+  .aboutDiv .section4 {
+    height: 12rem;
+  }
+}
+@media (max-width: 1200px) {
+  .aboutDiv .about_section1 p {
+    font-size: 2rem;
+  }
+  .aboutDiv .about_section1 span {
+    font-size: 1rem;
+  }
+  .aboutDiv .section2 .container {
+    height: 350px;
+  }
+  .aboutDiv .section2 .container2 {
+    height: 350px;
+  }
+  .aboutDiv .section2 .container {
+    height: 290px;
+  }
+  .aboutDiv .section2 .container2 {
+    height: 290px;
+  }
+  .aboutDiv .section2 .container .left1 p,
+  .aboutDiv .section2 .container2 .right2 p {
+    font-size: 1.4rem;
+  }
+  .aboutDiv .section2 .container .left1 span,
+  .aboutDiv .section2 .container2 .right2 span {
+    font-size: 0.8rem;
+  }
+  .aboutDiv .section4 {
+    height: 10rem;
+  }
+}
+@media (max-width: 1000px) {
+  .aboutDiv .section2 .container {
+    height: 300px;
+  }
+  .aboutDiv .section2 .container2 {
+    height: 300px;
+  }
+  .aboutDiv .section2 .container .left1 p,
+  .aboutDiv .section2 .container2 .right2 p {
+    font-size: 1.2rem;
+  }
+  .aboutDiv .section2 .container .left1 span,
+  .aboutDiv .section2 .container2 .right2 span {
+    font-size: 0.6rem;
+  }
+  .aboutDiv .section2 .container .left1 {
+    border-right: 1px solid #dcbb45;
+  }
+  .aboutDiv .section2 .container2 .left2 {
+    border-right: 1px solid #dcbb45;
+  }
+  .aboutDiv .section2 .container .right1 .line span,
+  .aboutDiv .section2 .container2 .left2 .line span {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+}
+@media (max-width: 900px) {
+  .aboutDiv .about_section1 p {
+    font-size: 1.6rem;
+  }
+  .aboutDiv .about_section1 span {
+    font-size: 0.8rem;
+  }
+  .aboutDiv .section2 .container {
+    height: 200px;
+  }
+  .aboutDiv .section2 .container2 {
+    height: 200px;
+  }
+  .aboutDiv .section2 .container .left1 p,
+  .aboutDiv .section2 .container2 .right2 p {
+    font-size: 1.2rem;
+  }
+  .aboutDiv .section2 .container .left1 span,
+  .aboutDiv .section2 .container2 .right2 span {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+  .aboutDiv .section4 {
+    height: 8rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .aboutDiv .about_section1 p {
+    font-size: 1.8rem;
+  }
+  .aboutDiv .about_section1 span {
+    font-size: 1rem;
+  }
+
+  /* section 2 start */
+
+  .aboutDiv .section2 .container {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .aboutDiv .section2 .container2 {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .aboutDiv .section2 .container .left1,
+  .aboutDiv .section2 .container2 .right2 {
+    padding: 4%;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .aboutDiv .section2 .container .left1 {
+    border-right: none;
+  }
+  .aboutDiv .section2 .container .left1 p,
+  .aboutDiv .section2 .container2 .right2 p {
+    font-size: 1.4rem;
+  }
+  .aboutDiv .section2 .container .left1 span,
+  .aboutDiv .section2 .container2 .right2 span {
+    text-align: justify;
+    font-size: 1rem;
+  }
+  .aboutDiv .section2 .container .right1,
+  .aboutDiv .section2 .container2 .left2 {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutDiv .section2 .container2 .left2 {
+    border-right: none;
+  }
+  .aboutDiv .section2 .container .right1 .line,
+  .aboutDiv .section2 .container2 .left2 .line {
+    display: none;
+  }
+  .aboutDiv .section2 .container .right1 .img,
+  .aboutDiv .section2 .container2 .left2 .img {
+    width: 75%;
+  }
+  /* section 2 end */
+  .aboutDiv .section4 {
+    height: 6rem;
+  }
+}
+@media (max-width: 550px) {
+  .aboutDiv {
+    padding-top: 20%;
+  }
+
+  .aboutDiv .about_section1 {
+    padding: 0 10%;
+  }
+  .aboutDiv .about_section1 p {
+    font-size: 1.4rem;
+  }
+  .aboutDiv .about_section1 span {
+    font-size: 0.8rem;
+  }
+
+  /* section 2 start */
+  .aboutDiv .section2 .container .left1 p,
+  .aboutDiv .section2 .container2 .right2 p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .aboutDiv .section2 .container .left1 span,
+  .aboutDiv .section2 .container2 .right2 span {
+    font-size: 0.8rem;
+  }
+  /* section 2 end */
+  .aboutDiv .section4 {
+    height: 4rem;
+  }
+}
+@media (max-width: 430px) {
+  .aboutDiv {
+    padding-top: 22%;
+  }
+  .aboutDiv .about_section1 p {
+    font-size: 1.2rem;
+  }
+}

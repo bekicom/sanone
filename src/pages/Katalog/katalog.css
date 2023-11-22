@@ -1,0 +1,257 @@
+@font-face {
+  font-family: regular;
+  src: url(../../Fonts/proximanova_regular.ttf);
+}
+*
+{
+    transition: all 0.5s;
+}
+.katalog {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  background: #f5f5f5;
+  font-family: regular;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.katalog-main {
+  padding: 10% 12%;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../../asest/katalog/bcImage1.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-y: 290px;
+  background-size: contain;
+  gap: 4rem;
+}
+.katalog-main .top p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+  /* identical to box height */
+  font-family: regular;
+  text-align: center;
+
+  color: #9f6233;
+}
+.katalog-main .top span {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #7c7c7c;
+  font-family: regular;
+}
+.katalog-main .container {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6rem;
+}
+.katalog-main .container .box-container {
+  display: flex;
+  flex: 1 1 30rem;
+  align-items: center;
+  justify-content: center;
+}
+.katalog-main .container .box-container:hover img {
+  transform: scale(1.06);
+  color: black;
+}
+.katalog-main .container .box-container .img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.katalog-main .container .box-container .img img {
+  width: 100%;
+  height: 100%;
+}
+.katalog-main .container .box-container p {
+  display: inline-block;
+  margin-top: 46px;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  color: #9f6233;
+}
+
+.box-container > button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* media queries */
+@media (max-width: 1800px) {
+  .katalog-main .container .box-container {
+    flex: 1 1 28rem;
+  }
+}
+
+@media (max-width: 1700px) {
+  .katalog-main .container {
+    gap: 5rem;
+  }
+  .katalog-main .container .box-container {
+    flex: 1 1 26rem;
+  }
+}
+@media (max-width: 1600px) {
+  .katalog-main .top p {
+    font-size: 3rem;
+  }
+  .katalog-main .top span {
+    font-size: 1.5rem;
+  }
+  .katalog-main .container .box-container {
+    flex: 1 1 24rem;
+  }
+}
+@media (max-width: 1500px) {
+  .katalog-main .container {
+    gap: 4rem;
+  }
+}
+@media (max-width: 1300px) {
+  .katalog-main {
+    padding: 15% 6%;
+  }
+}
+@media (max-width: 1200px) {
+  .katalog-main .container {
+    gap: 4rem;
+  }
+  .katalog-main .container .box-container {
+    flex: 1 1 20rem;
+  }
+  .katalog-main .container .box-container p {
+    margin-top: 4%;
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 1100px) {
+  .katalog-main {
+    padding: 16% 6% 10% 6%;
+  }
+  .katalog-main .top p {
+    font-size: 2.5rem;
+  }
+  .katalog-main .top span {
+    font-size: 1.3rem;
+  }
+  .katalog-main .container .box-container {
+    flex: 1 1 18rem;
+  }
+  .katalog-main .container .box-container p {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 930px) {
+  .katalog-main {
+    gap: 2rem;
+  }
+  .katalog-main .top p {
+    font-size: 2.2rem;
+  }
+  .katalog-main .top span {
+    font-size: 1rem;
+  }
+  .katalog-main .container {
+    gap: 3rem;
+  }
+  .katalog-main .container .box-container {
+    flex: 1 1 16rem;
+  }
+  .katalog-main .container .box-container p {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 640px) {
+  .katalog-main .top p {
+    font-size: 2rem;
+  }
+  .katalog-main .top span {
+    font-size: 0.8rem;
+  }
+  .katalog-main .container {
+    gap: 2rem;
+  }
+  .katalog-main .container .box-container {
+    flex: 1 1 14rem;
+  }
+  .katalog-main .container .box-container p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 550px) {
+  .katalog-main {
+    gap: 1.6rem;
+    padding-top: 20%;
+  }
+  .katalog-main .top p {
+    font-size: 1.6rem;
+  }
+  .katalog-main .container {
+    gap: 2rem;
+  }
+  .katalog-main .container .box-container {
+    flex: 1 1 10rem;
+  }
+  .katalog-main .container .box-container p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  .katalog-main {
+    gap: 1rem;
+    padding-top: 5rem;
+  }
+  .katalog-main .top p {
+    font-size: 1rem;
+  }
+  .katalog-main .top span {
+    font-size: 0.6rem;
+  }
+  .katalog-main .container {
+    gap: 1.6rem;
+  }
+  .katalog-main .container .box-container {
+    flex: 1 1 8rem;
+  }
+  .katalog-main .container .box-container p {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 320px) {
+  .katalog-main {
+    gap: 0.8rem;
+  }
+  .katalog-main .top p {
+    font-size: 0.8rem;
+  }
+  .katalog-main .top span {
+    font-size: 0.5rem;
+  }
+  .katalog-main .container {
+    gap: 1.2rem;
+  }
+  .katalog-main .container .box-container {
+    flex: 1 1 6rem;
+  }
+  .katalog-main .container .box-container p {
+    font-size: 0.5rem;
+  }
+}
